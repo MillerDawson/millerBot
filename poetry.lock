@@ -208,6 +208,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "modules"
+version = "1.0.0"
+description = "Simple test on modules"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "multidict"
 version = "6.0.2"
 description = "multidict implementation"
@@ -483,7 +491,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "489fd8f9ebcac0e88d1076737e5543bfbfca919d9411156f48407a34ebcb6c9b"
+content-hash = "54c4821c7f93a792f2935aded13b25e96b37afb8e0f8a187e5230a652a16690a"
 
 [metadata.files]
 aiohttp = []
@@ -504,6 +512,7 @@ itsdangerous = []
 jedi = []
 jinja2 = []
 markupsafe = []
+modules = []
 multidict = []
 numpy = []
 packaging = []
